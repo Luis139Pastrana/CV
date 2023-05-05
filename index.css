@@ -171,6 +171,12 @@ footer>div{
         flex-direction: column-reverse;
     }
 
+    #logo{
+        width: 100px;
+        height: 30px;
+    }
+
+
     .perfil img{
         width: 150px;
         height: 150px;
@@ -183,6 +189,6 @@ footer>div{
     }
 
     footer{
-        display:contents;
+        display:block;
     }
 }
