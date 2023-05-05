@@ -178,9 +178,11 @@ footer>div{
 
     .Nav{
         margin-top: 30px;
+        font-size: 10px;
+        letter-spacing: none;
     }
 
     footer{
-        justify-content: center;
+        display:contents;
     }
 }
