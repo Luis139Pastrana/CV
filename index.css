@@ -154,7 +154,6 @@ footer>div{
 }
 
 .enviarcorreo:hover{
-    letter-spacing: 0.1rem;
     box-shadow: 0 0 35px blue;
     background-color: blue;
     border: 1px solid white;
@@ -165,6 +164,19 @@ footer>div{
 @media (max-width:700px){
     *{
         flex-direction: column;
+    }
+
+    /*Animaciones movil*/
+
+    .Nav a:hover{
+        letter-spacing: 0;
+        padding: 10px;
+
+    }
+
+    /*ajuste para movil*/
+    header{
+        padding: 10px;
     }
 
     .perfil{
@@ -187,8 +199,31 @@ footer>div{
         font-size: 8px;
         letter-spacing: none;
     }
+    .con{
+        padding: 10px;
+    }
+
+    .links a:hover{
+        letter-spacing: 0;
+    }
 
     footer{
-        display:block;
+        flex-direction: row;
+        font-size: 8px;
     }
+
+    .redes a img{
+        width: 15px;
+        height: 15px;
+    }
+
+    .enviarcorreo{
+        margin: 5px;
+        padding: 10px;
+        border: 1px solid blue;
+        border-radius: 10px;
+        text-decoration: none;
+        color: aliceblue;
+    }
+    
 }
