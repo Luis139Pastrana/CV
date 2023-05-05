@@ -184,8 +184,8 @@ footer>div{
     }
 
     #logo{
-        width: 100px;
-        height: 30px;
+        width: 150px;
+        height: 50px;
     }
 
 
@@ -205,6 +205,18 @@ footer>div{
 
     .links a:hover{
         letter-spacing: 0;
+    }
+
+    .freelance{
+        font-size: 10px;
+    }
+
+    .servicios{
+        font-size: 10px;
+    }
+
+    .trabajos{
+        font-size: 10px;
     }
 
     footer{
